@@ -46,4 +46,52 @@ Underline 2
 
 # Imágenes
 
-![Logo GitHub](https://imgs.search.brave.com/oJHtGQO63eg5laE5mKRuyM2wGcK_vGrgEcTw_vBiqqg/rs:fit:900:900:1/g:ce/aHR0cHM6Ly9iaXRl/bXljb2luLmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvMjAxOC8w/Ni9HaXRIdWItTG9n/by5wbmc)
+![Logo GitHub](https://imgs.search.brave.com/ZhnjgP77uCVODTUNfQsQZAKkIlit2uyYFB_luKGVCJw/rs:fit:512:512:1/g:ce/aHR0cHM6Ly93d3cu/aWNvbnNkYi5jb20v/aWNvbnMvZG93bmxv/YWQvcGluay9naXRo/dWItOS01MTIucG5n)
+
+
+# Code Snipets
+
+###  Código en JSON
+
+```JSON
+
+[
+  {
+    "title": "apples",
+    "count": [12000, 20000],
+    "description": {"text": "...", "sensitive": false}
+  },
+  {
+    "title": "oranges",
+    "count": [17500, null],
+    "description": {"text": "...", "sensitive": false}
+  }
+]
+```
+
+
+###  Código en JavaScript
+
+```Javascript
+function $initHighlight(block, cls) {
+  try {
+    if (cls.search(/\bno\-highlight\b/) != -1)
+      return process(block, true, 0x0F) +
+             ` class="${cls}"`;
+  } catch (e) {
+    /* handle exception */
+  }
+  for (var i = 0 / 2; i < classes.length; i++) {
+    if (checkCondition(classes[i]) === undefined)
+      console.log('undefined');
+  }
+
+  return (
+    <div>
+      <web-component>{block}</web-component>
+    </div>
+  )
+}
+export  $initHighlight;
+```
+
