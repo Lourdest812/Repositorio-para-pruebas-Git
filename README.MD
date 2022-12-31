@@ -14,6 +14,7 @@ Underline 1
 Underline 2
 ===========
 
+
 # Formatos de énfasis
 
 - formato itálica *primer* forma.
@@ -23,6 +24,7 @@ Underline 2
 - formato ~~tachado~~, formato normal.
 
 - acá podemos usar formato _itálico_, pero también **bold** o ~~tachado~~.
+
 
 # Listas
 
@@ -34,5 +36,11 @@ Underline 2
 - Esto es un item de lista desordenada.
 - Esto es un item de lista desordenada.
 
+
+# Links
+
+- <a href="http://google.com">Esto es un link HTML</a>
+- [Esto es un link en Markdown](http://www.google.com)
+- [Esto es un link en Markdown](index.html)
 
 
