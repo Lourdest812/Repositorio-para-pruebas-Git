@@ -44,3 +44,6 @@ Underline 2
 - [Esto es un link en Markdown](index.html)
 
 
+# Imágenes
+
+![Logo GitHub](https://imgs.search.brave.com/oJHtGQO63eg5laE5mKRuyM2wGcK_vGrgEcTw_vBiqqg/rs:fit:900:900:1/g:ce/aHR0cHM6Ly9iaXRl/bXljb2luLmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvMjAxOC8w/Ni9HaXRIdWItTG9n/by5wbmc)
